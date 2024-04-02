@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-start-rgb: 23, 23, 23;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+body {
+  background: rgb(var(--background-start-rgb));
+}
+
+html::-webkit-scrollbar {
+  width: 0rem;
+  display:none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  image-rendering: optimizeQuality;
+  image-orientation: from-image;
+  image-resolution: inherit;
+  scroll-padding-top: 20px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+@font-face {
+  font-family: "Mattone";
+  src: url("./_assets/Mattone-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fill-color {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 50%, transparent 50%, transparent 100%);
+  background-clip: text;
+  color: transparent;
+  display: flex;
+  animation: background-position 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  background-size: 200% 100%;
+}
+
+@keyframes background-position {
+  0% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 0.5rem));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__content {
+    animation-play-state: paused !important;
+  }
+}
+
+.marq-animation .marquee__content {
+  animation: scroll 20s linear infinite;
+}
