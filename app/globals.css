@@ -30,6 +30,8 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
+
+
 @font-face {
   font-family: "Mattone";
   src: url("./_assets/Mattone-Regular.otf") format("truetype");
@@ -82,5 +84,18 @@ html {
 }
 
 .marq-animation .marquee__content {
-  animation: scroll 20s linear infinite;
+  animation: scroll 50s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin 15s linear infinite; /* Adjust duration (4s) to make it slower */
 }
