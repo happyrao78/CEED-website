@@ -64,7 +64,7 @@ const ProjectsSection = () => {
           <div className="flex items-center justify-center flex-col gap-[2.5rem] w-full">
             <div className="w-full flex items-start justify-start flex-col text-white uppercase">
               <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem]">
-                Powerful Branding, stunning websites
+                Powerful Branding, stunning StartUps
               </h1>
             </div>
             <div className="grid md:grid-cols-3 items-center justify-start gap-[1.4rem] s:grid-cols-2 grid-cols-1 border-b border-[#2e2e2e] py-4">
