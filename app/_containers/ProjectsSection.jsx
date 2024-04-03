@@ -64,7 +64,7 @@ const ProjectsSection = () => {
           <div className="flex items-center justify-center flex-col gap-[2.5rem] w-full">
             <div className="w-full flex items-start justify-start flex-col text-white uppercase">
               <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem]">
-                Powerful Branding, stunning StartUps
+                Incubating ideas, building leaders
               </h1>
             </div>
             <div className="grid md:grid-cols-3 items-center justify-start gap-[1.4rem] s:grid-cols-2 grid-cols-1 border-b border-[#2e2e2e] py-4">
@@ -104,19 +104,19 @@ const ProjectsSection = () => {
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">01</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      WEB DESIGN
+                      DEVELOPMENT
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">02</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      UI DESIGN
+                      MENTORING
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">03</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      WEB DEVELOPMENT
+                      NETWORKING
                     </p>
                   </div>
                 </div>
@@ -124,19 +124,19 @@ const ProjectsSection = () => {
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">01</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      WEB DESIGN
+                      INVESTMENT
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">02</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      UI DESIGN
+                      
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
                     <sup className="font-mattone text-sm sm:text-base">03</sup>
                     <p className="font-mattone font-bold text-sm sm:text-lg">
-                      GRAPHIC DESIGN
+                      ENTREPRENEURSHIP
                     </p>
                   </div>
                   <div className="flex items-center justify-center py-4 px-9 border-2 gap-2 border-[#2e2e2e] rounded-full  text-white hover:bg-white hover:text-[#2e2e2e] transition duration-500 ease-in-out">
