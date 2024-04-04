@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div className="flex items-center justify-center flex-col gap-[1.2rem] w-full max-w-5xl">
           <DiReact className="w-[70px] h-[70px] text-[#e6e0e0] animate-spin-slow hover:text-green-500 transition ease-in-out duration-500"/>
             <div className="flex items-center justify-center flex-col p-2 fill-color uppercase">
-              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-3xl sm:text-4xl  md:text-4xl  xl:text-6xl text-white hover:text-yellow-500 transition ease-in-out duration-500">
+              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-3xl sm:text-4xl  md:text-4xl  xl:text-6xl text-white hover:text-yellow-200 transition ease-in-out duration-500">
               <span className="text-red-600"> Chitkara University </span>
               Centre for Entrepreneurship Education & Development (cuceed)
               </h1>

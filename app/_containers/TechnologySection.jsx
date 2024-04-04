@@ -15,8 +15,8 @@ export default function TechnologySection() {
 
 const TechMarq = ({ secRow }) => {
   const pics = !secRow
-    ? ["java2", "swift2", "html2", "kotlin2","chai","path"]
-    : [  ];
+    ? ["java2", "swift2", "html2", "kotlin2", "chai", "path"]
+    : [];
   return (
     <div className="marq-animation ">
       <div className="gap-10 relative flex overflow-hidden select-none w-screen marquee-hover:pause">
@@ -27,7 +27,7 @@ const TechMarq = ({ secRow }) => {
           {pics.map((tech, i) => {
             return (
               <div className="w-full" key={i}>
-                <img  src={`/images/techlogos/${tech}.png`} alt={tech} />
+                <img src={`/images/techlogos/${tech}.png`} alt={tech} />
               </div>
             );
           })}

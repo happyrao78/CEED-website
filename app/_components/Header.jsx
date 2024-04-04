@@ -3,7 +3,7 @@ import app from "@/app/_assets/app.png"
 import ceed from "@/app/_assets/ceed_white.png"
 const Header = () => {
   return (
-    <header className="w-screen fixed top-0 text-yellow-500 flex items-center justify-center p-2 bg-[#000000] border-b border-[#000000] z-[1] opacity-[85%] mb-20">
+    <header className="w-screen fixed top-0 text-red-500 flex items-center justify-center p-2 bg-[#000000] border-b border-[#000000] z-[1] opacity-[85%] mb-20">
         <nav className="w-full flex items-center justify-center p-2 max-w-screen-2xl mx-auto">
             <div className="w-full flex items-center justify-center">
                 <div className="w-full flex items-center justify-between ">
