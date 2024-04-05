@@ -1,7 +1,14 @@
+"use client"
 import Link from "next/link"
 import app from "@/app/_assets/app.png"
 import ceed from "@/app/_assets/ceed_white.png"
+import { useState } from "react";
 const Header = () => {
+    const [mobileNavOpen, setMobileNavOpen] = useState(false);
+    const toggleMobileNav = () =>{
+      setMobileNavOpen(!mobileNavOpen);
+    }
+  
   return (
     <header className="w-screen fixed top-0 text-white flex items-center justify-center p-2 bg-[#000000] border-b border-[#000000] z-[1] opacity-[85%] mb-20">
         <nav className="w-full flex items-center justify-center p-2 max-w-screen-2xl mx-auto">
@@ -23,7 +30,9 @@ const Header = () => {
                       <Link href="/#contact"><p className=" hover:text-gray-400 transition ease-in-out duration-500">Contact Us</p></Link>
                     </div>
                     <div className="sm:hidden flex items-center justify-center">
+                    <button onClick={toggleMobileNav}>
                       <img src={app.src} alt="app" className="object-cover h-4 w-4 invert"/>
+                      </button>
                     </div>
                 </div>
             </div>

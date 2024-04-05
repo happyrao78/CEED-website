@@ -63,7 +63,7 @@ const ProjectsSection = () => {
         <div className="flex items-center justify-center w-full h-full flex-col gap-[4rem]">
           <div className="flex items-center justify-center flex-col gap-[2.5rem] w-full">
             <div className="w-full flex items-start justify-start flex-col text-white hover:text-yellow-500 transition ease-in-out duration-500 uppercase">
-              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem] ">
+              <h1 className="font-mattone font-bold text-xl  xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem] ">
                 Incubating ideas, building leaders
               </h1>
             </div>
