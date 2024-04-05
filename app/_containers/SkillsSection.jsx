@@ -12,7 +12,7 @@ const SkillsSection = () => {
           <div className="flex items-start justify-start w-full h-full flex-col md:flex-row gap-[2rem] border-b border-[#2e2e2e] py-12">
             <div className="flex items-start justify-start w-full md:w-[50%] flex-col gap-2">
               <div className="flex flex-col h-full w-full items-start justify-start text-red-500">
-                <h1 className="font-mattone font-bold text-3xl xs:text-4xl s:text-4xl sm:text-6xl md:text-5xl lg:text-6xl hover:text-yellow-500  transition ease-in-out duration-500 ">
+                <h1 className="font-mattone font-bold text-3xl xs:text-4xl s:text-4xl sm:text-6xl md:text-5xl lg:text-6xl  duration-500 ">
                   WE ARE CEED
                 </h1>
                 <h1 className="font-mattone font-bold text-3xl xs:text-4xl s:text-5xl sm:text-6xl md:text-5xl lg:text-7xl">

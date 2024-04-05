@@ -62,8 +62,8 @@ const ProjectsSection = () => {
       <div className="flex items-center justify-center w-full pt-14 h-full max-w-screen-2xl mx-auto">
         <div className="flex items-center justify-center w-full h-full flex-col gap-[4rem]">
           <div className="flex items-center justify-center flex-col gap-[2.5rem] w-full">
-            <div className="w-full flex items-start justify-start flex-col text-yellow-500 hover:text-white transition ease-in-out duration-500 uppercase">
-              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem]">
+            <div className="w-full flex items-start justify-start flex-col text-white hover:text-yellow-500 transition ease-in-out duration-500 uppercase">
+              <h1 className="font-mattone font-bold text-xl xs:text-2xl s:text-4xl md:text-5xl lg:text-6xl xl:text-[5.2rem] ">
                 Incubating ideas, building leaders
               </h1>
             </div>
@@ -83,12 +83,12 @@ const ProjectsSection = () => {
                     </div>
                   {/* </Link> */}
                   <div className="flex items-start justify-start w-full">
-                    <p className="uppercase font-mattone font-bold text-xl lg:text-xl xl:text-xl text-yellow-500 hover:text-white transition ease-in-out duration-500">
+                    <p className="uppercase font-mattone font-bold text-xl lg:text-xl xl:text-xl text-yellow-500 transition ease-in-out duration-500">
                       {project.title}
                     </p>
                   </div>
                   <div className="flex items-start justify-start w-[85%] xl:w-[80%]">
-                    <p className="uppercase text-[#979595] font-semibold text-sm xl:text-base">
+                    <p className="uppercase text-[#979595] hover:text-white transition ease-in-out duration-500 font-semibold text-sm xl:text-base">
                       {project.description}
                     </p>
                   </div>
